@@ -88,6 +88,7 @@ header{
   justify-content: center;
   padding: 4px;
   flex-wrap: wrap;
+
 }
 
 header .logo{
@@ -678,6 +679,22 @@ header .search-bar-container label:hover{
     padding:1.5rem;
     margin:1.5rem 0;    
     background:#222;
+  }
+
+}
+
+@media (max-width:450px){
+
+  html{
+    font-size: 50%;
+  }
+
+  .heading span{
+    font-size: 2.5rem;
+  }
+
+  .contact .row form .inputBox input{
+    width:100%;
   }
 
 }
